@@ -1,38 +1,197 @@
-/* Index */
+.main-nav ul, .header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden; }
 
-/*
-  #Globals html
-  #Classes
-  #Layout
-  #Modules 
-*/
-
-/* #Globals html
-================================================= */
+.l-acerca, .l-patrocinadores, .l-registro {
+  max-width: 80%;
+  margin: 0 auto; }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: Arial, Verdana, sans-serif;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+  height: 100%;
+  font-family: sans-serif; }
+
+* {
+  box-sizing: inherit; }
 
 body {
+  margin: 0;
+  height: 100%; }
+
+ul, ol {
+  margin: 0; }
+
+p, li {
   font-size: 16px;
-  font-size: 1.6rem;
-}
+  font-size: 1.6rem; }
 
-/* #Classes
-================================================= */
+a {
+  text-decoration: none; }
 
-/*titles*/
+.header-content {
+  height: 450px; }
 
+.l-acerca, .l-patrocinadores, .l-registro {
+  padding: 100px 0; }
 
-/* #Layout
-================================================= */
+nav ul {
+  padding: 0; }
+nav li {
+  list-style-type: none;
+  margin: 0; }
 
+.nav-main li {
+  vertical-align: top;
+  border-bottom: 1px solid #C5C5C5; }
+.nav-main .nav-main-item {
+  color: #fff;
+  display: block;
+  padding: 0 22%;
+  line-height: 80px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  outline: none;
+  font-family: Roboto;
+  font-weight: 200;
+  text-transform: uppercase; }
+  .nav-main .nav-main-item:hover {
+    color: #000;
+    background: rgba(255, 255, 255, 0.5); }
 
-/* #Modules 
-================================================= */
+.header-main {
+  background: url(../img/background-logo2.jpg);
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: fixed; }
+
+.logo-main {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  padding: 23%; }
+  .logo-main a {
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+    font-size: 2.1rem; }
+
+.home {
+  width: 80%;
+  height: 100%;
+  float: right;
+  border: 1px solid #000;
+  background-size: cover; }
+
+.welcome {
+  margin: 30% 10% 0 0;
+  font-size: 21px;
+  font-size: 2.1rem;
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  text-align: right; }
+
+.about-me {
+  float: right;
+  width: 80%;
+  border: 1px solid #000;
+  padding: 5%; }
+
+.title {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-size: 32px;
+  font-size: 3.2rem;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding: 0 10px 10px 0;
+  margin: 4% 0 4% 4%; }
+
+.info-about-me {
+  width: 50%;
+  padding: 8%;
+  text-align: center; }
+
+.born {
+  float: left; }
+
+.love {
+  float: right; }
+
+.education {
+  margin: 0 auto; }
+
+.skills {
+  float: right;
+  width: 80%;
+  border: 1px solid #000;
+  padding: 5%; }
+
+.porfolio {
+  float: right;
+  width: 80%;
+  border: 1px solid #000;
+  padding: 5%; }
+
+.porfolio h3 {
+  margin: 3%;
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+.porfolio img {
+  width: 200px;
+  float: left;
+  margin: 3%; }
+
+.contact {
+  float: right;
+  width: 80%;
+  border: 1px solid #000;
+  padding: 5%; }
+
+.contact h4 {
+  font-size: 14px;
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 2%; }
+
+.contact img {
+  width: 40px; }
+
+.contact input {
+  width: 200px;
+  height: 45px;
+  padding: 2%;
+  margin-bottom: 2%; }
+
+.contact textarea {
+  width: 400px;
+  height: 100px;
+  padding: 2%;
+  margin-bottom: 2%; }
+
+.contact button {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 2%;
+  display: block;
+  margin-left: 27%;
+  background: #000;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Raleway', 'Roboto', sans-serif; }
+
+.rrss {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  width: 30px;
+  margin: 30px; }
+  .rrss img {
+    width: 30px;
+    margin-bottom: 20%; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+// 
+// Estilos para los elementos base
+//
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+ul, ol {
+  margin: 0;
+}
+
+p, li {
+  @include font-size(16);
+}
+
+a {
+  text-decoration: none;
+}
+
+// Patrones

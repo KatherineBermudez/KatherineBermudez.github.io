@@ -1,0 +1,30 @@
+//
+// Estilos del header
+//
+
+//header-main
+.header-main {
+  background: url(../img/background-logo2.jpg);
+  width: $header-width;
+  height:100%;
+  float: left;
+  position: fixed;
+}
+
+//logo-main
+.logo-main{
+  margin: 0;
+  background: rgba(0,0,0,0.7);
+  background-size:cover;
+  padding: 23%;
+  a{
+  	font-family: 'Raleway', 'Roboto', sans-serif;
+  	font-weight: 200;
+    color: #fff;
+  	text-decoration: none;
+  	@include font-size(21);
+  }
+}
+
+
+
