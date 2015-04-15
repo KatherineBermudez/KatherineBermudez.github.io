@@ -29,9 +29,9 @@
       </nav>
     </header>
     <div class="rrss">
-        <img src="img/facebook.png" class="rrss-icon">
-        <img src="img/google.png" class="rrss-icon">
-        <img src="img/github.png" class="rrss-icon">
+        <a href=""><img src="img/facebook.png" class="rrss-icon"></a>
+        <a href=""><img src="img/google.png" class="rrss-icon"></a>
+        <a href=""><img src="img/github.png" class="rrss-icon"></a>
     </div>
 
     <section class="contact">
@@ -39,22 +39,21 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed tristique erat. Nullam ornare eu dolor quis porttitor. Nullam commodo libero sed eros faucibus gravida sit amet at sem. </p>
       <section class="location">
         <img src="img/location.png">
-        <h4>Katherine Bermudez.</br>San jose, Costa Rica</h4>
+        <h4 class="subtitle">Katherine Bermudez.</br>San jose, Costa Rica</h4>
       </section>
       <section class="email">
         <img src="img/email.png">
-        <h4>Email</br>bermukat@gmail.com</h4>
+        <h4 class="subtitle">Email</br>bermukat@gmail.com</h4>
       </section>
-      <form>
-        <input type="text" name="nombre" placeholder="Nombre">
-        <br>
-        <input type="email" name="email" placeholder="Email">
-        </br>
-        <textarea rows="4" cols="50" placeholder="Mesaje"></textarea>
+      <form name="form-contact" class="form-contact">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea rows="4" cols="50" placeholder="Mesaje" required></textarea>
         <button>Enviar</button>
       </form>
 
     </section>
-
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

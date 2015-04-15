@@ -7,6 +7,22 @@
   max-width: 80%;
   margin: 0 auto; }
 
+h1 {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-size: 32px;
+  font-size: 3.2rem;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding: 0 10px 10px 0;
+  margin: 4% 0 4% 4%; }
+
+.subtitle, .title-about-me, .contact input, .contact textarea, .contact button {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  font-size: 21px;
+  font-size: 2.1rem; }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -22,6 +38,9 @@ body {
 
 ul, ol {
   margin: 0; }
+
+li {
+  list-style: none; }
 
 p, li {
   font-size: 16px;
@@ -60,6 +79,25 @@ nav li {
     color: #000;
     background: rgba(255, 255, 255, 0.5); }
 
+.home-container {
+  width: 80%;
+  height: 100%;
+  float: right;
+  background-size: cover; }
+
+.welcome {
+  margin: 30% 10% 0 0;
+  font-size: 21px;
+  font-size: 2.1rem;
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  text-align: right; }
+
+.welcome h1 {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding: 16px 0;
+  border-top: 1px solid #000; }
+
 .header-main {
   background: url(../img/background-logo2.jpg);
   width: 20%;
@@ -69,6 +107,7 @@ nav li {
 
 .logo-main {
   margin: 0;
+  width: 100%;
   background: rgba(0, 0, 0, 0.7);
   background-size: cover;
   padding: 23%; }
@@ -80,34 +119,10 @@ nav li {
     font-size: 21px;
     font-size: 2.1rem; }
 
-.home {
-  width: 80%;
-  height: 100%;
-  float: right;
-  border: 1px solid #000;
-  background-size: cover; }
-
-.welcome {
-  margin: 30% 10% 0 0;
-  font-size: 21px;
-  font-size: 2.1rem;
-  font-family: 'Raleway', 'Roboto', sans-serif;
-  text-align: right; }
-
 .about-me {
   float: right;
   width: 80%;
-  border: 1px solid #000;
   padding: 5%; }
-
-.title {
-  font-family: 'Raleway', 'Roboto', sans-serif;
-  font-size: 32px;
-  font-size: 3.2rem;
-  border-bottom: 1px solid #000;
-  display: inline-block;
-  padding: 0 10px 10px 0;
-  margin: 4% 0 4% 4%; }
 
 .info-about-me {
   width: 50%;
@@ -123,32 +138,161 @@ nav li {
 .education {
   margin: 0 auto; }
 
+.rrss {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  width: 30px;
+  margin: 30px; }
+  .rrss img {
+    width: 40px;
+    margin-bottom: 20%;
+    padding: 8px; }
+    .rrss img:hover {
+      border: 1px solid #000;
+      border-radius: 21px; }
+
+.item-skill {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: 'Raleway', 'Roboto', sans-serif; }
+
+.percent {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: 'Raleway', 'Roboto', sans-serif; }
+
+.progress-html5 {
+  background-color: #93C7BA;
+  height: 50px;
+  width: 70%;
+  -webkit-animation-name: animate-html5;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s;
+  /* Chrome, Safari, Opera */
+  animation-name: animate-html5;
+  animation-duration: 1s; }
+
+.content-progress-html5 {
+  border: 1px solid #93C7BA; }
+
+@-webkit-keyframes animate-html5 {
+  0% {
+    width: 0; }
+  100% {
+    width: 70%; } }
+@-moz-keyframes animate-html5 {
+  0% {
+    width: 0; }
+  100% {
+    width: 70%; } }
+.progress-css3 {
+  background-color: #33B0AE;
+  height: 50px;
+  width: 60%;
+  -webkit-animation-name: animate-css3;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s;
+  /* Chrome, Safari, Opera */
+  animation-name: animate-css3;
+  animation-duration: 1s; }
+
+.content-progress-css3 {
+  border: 1px solid #33B0AE; }
+
+@-webkit-keyframes animate-css3 {
+  0% {
+    width: 0; }
+  100% {
+    width: 60%; } }
+@-moz-keyframes animate-css3 {
+  0% {
+    width: 0; }
+  100% {
+    width: 60%; } }
+.progress-js {
+  background-color: #EB4C34;
+  height: 50px;
+  width: 50%;
+  -webkit-animation-name: animate-js;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s;
+  /* Chrome, Safari, Opera */
+  animation-name: animate-js;
+  animation-duration: 1s; }
+
+.content-progress-js {
+  border: 1px solid #EB4C34; }
+
+@-webkit-keyframes animate-js {
+  0% {
+    width: 0; }
+  100% {
+    width: 50%; } }
+@-moz-keyframes animate-js {
+  0% {
+    width: 0; }
+  100% {
+    width: 50%; } }
+.progress-ilustrador {
+  background-color: #B5220B;
+  height: 50px;
+  width: 70%;
+  -webkit-animation-name: animate-ilustrador;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s;
+  /* Chrome, Safari, Opera */
+  animation-name: animate-ilustrador;
+  animation-duration: 1s; }
+
+.content-progress-ilustrador {
+  border: 1px solid #B5220B; }
+
+@-webkit-keyframes animate-ilustrador {
+  0% {
+    width: 0; }
+  100% {
+    width: 70%; } }
+@-moz-keyframes animate-ilustrador {
+  0% {
+    width: 0; }
+  100% {
+    width: 70%; } }
+.content-progress {
+  width: 500px;
+  margin-bottom: 2px; }
+
 .skills {
   float: right;
   width: 80%;
-  border: 1px solid #000;
   padding: 5%; }
 
 .porfolio {
   float: right;
   width: 80%;
-  border: 1px solid #000;
   padding: 5%; }
 
-.porfolio h3 {
-  margin: 3%;
-  font-size: 16px;
-  font-size: 1.6rem; }
-
-.porfolio img {
-  width: 200px;
-  float: left;
-  margin: 3%; }
+.read-more {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  font-size: 14px;
+  font-size: 1.4rem;
+  border: 1px solid #000;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #000;
+  display: block;
+  width: 13%;
+  margin-top: 20px;
+  margin-bottom: 50px; }
+  .read-more:hover {
+    background: #000;
+    color: #fff; }
 
 .contact {
   float: right;
   width: 80%;
-  border: 1px solid #000;
   padding: 5%; }
 
 .contact h4 {
@@ -163,35 +307,37 @@ nav li {
 .contact input {
   width: 200px;
   height: 45px;
-  padding: 2%;
-  margin-bottom: 2%; }
+  padding-left: 20px;
+  margin-bottom: 2%;
+  font-size: 14px;
+  font-size: 1.4rem; }
 
 .contact textarea {
   width: 400px;
   height: 100px;
-  padding: 2%;
-  margin-bottom: 2%; }
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 2%;
+  font-size: 14px;
+  font-size: 1.4rem; }
 
 .contact button {
-  width: 150px;
-  height: 30px;
+  width: 140px;
+  height: 40px;
   margin-bottom: 2%;
   display: block;
   margin-left: 27%;
   background: #000;
   border: none;
   color: #fff;
-  text-transform: uppercase;
-  font-family: 'Raleway', 'Roboto', sans-serif; }
+  font-size: 18px;
+  font-size: 1.8rem; }
+  .contact button:hover {
+    background: #33B0AE;
+    border: 1px solid #33B0AE; }
 
-.rrss {
-  display: inline-block;
-  position: fixed;
-  right: 0;
-  width: 30px;
-  margin: 30px; }
-  .rrss img {
-    width: 30px;
-    margin-bottom: 20%; }
+.form-contact {
+  width: 500px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

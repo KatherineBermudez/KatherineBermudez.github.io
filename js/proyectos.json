@@ -1,0 +1,36 @@
+{
+	"nombre":"Portafolio Katherine Bermudez",
+	"proyectos":[
+	{
+		"nombre":"Proyecto 1",
+		"img":"img/proyecto1.jpg",
+		"categ": "WEB",
+		"detalle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui vel purus dignissim iaculis.",
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui vel purus dignissim iaculis. Suspendisse malesuada, orci nec suscipit pharetra, odio nisi molestie sem, ac suscipit lorem risus eleifend lorem. Sed elementum, ipsum eget ullamcorper lacinia, libero magna congue felis, egestas dapibus enim nibh eu nisi. Integer ullamcorper molestie imperdiet. Vestibulum nec facilisis orci. Mauris et nibh in ex facilisis porttitor. Nullam ante dolor, condimentum id erat id, vestibulum rutrum sapien. Nam non vulputate arcu, sed mattis lacus. Praesent eget metus vel nibh tristique luctus. Duis at molestie lectus. Morbi lacus eros, finibus non nisl a, efficitur sollicitudin eros. Sed non fermentum enim."			
+	},
+
+	{
+		"nombre":"Proyecto 2",
+		"img":"img/proyecto2.jpg",
+		"categ": "WEB",
+		"detalle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui vel purus dignissim iaculis.",
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui vel purus dignissim iaculis. Suspendisse malesuada, orci nec suscipit pharetra, odio nisi molestie sem, ac suscipit lorem risus eleifend lorem. Sed elementum, ipsum eget ullamcorper lacinia, libero magna congue felis, egestas dapibus enim nibh eu nisi. Integer ullamcorper molestie imperdiet. Vestibulum nec facilisis orci. Mauris et nibh in ex facilisis porttitor. Nullam ante dolor, condimentum id erat id, vestibulum rutrum sapien. Nam non vulputate arcu, sed mattis lacus. Praesent eget metus vel nibh tristique luctus. Duis at molestie lectus. Morbi lacus eros, finibus non nisl a, efficitur sollicitudin eros. Sed non fermentum enim."			
+	},
+
+	{
+		"nombre":"Proyecto 3",
+		"img":"img/proyecto3.jpg",
+		"categ": "WEB",
+		"detalle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui vel purus dignissim iaculis.",
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui vel purus dignissim iaculis. Suspendisse malesuada, orci nec suscipit pharetra, odio nisi molestie sem, ac suscipit lorem risus eleifend lorem. Sed elementum, ipsum eget ullamcorper lacinia, libero magna congue felis, egestas dapibus enim nibh eu nisi. Integer ullamcorper molestie imperdiet. Vestibulum nec facilisis orci. Mauris et nibh in ex facilisis porttitor. Nullam ante dolor, condimentum id erat id, vestibulum rutrum sapien. Nam non vulputate arcu, sed mattis lacus. Praesent eget metus vel nibh tristique luctus. Duis at molestie lectus. Morbi lacus eros, finibus non nisl a, efficitur sollicitudin eros. Sed non fermentum enim."			
+	},
+
+	{
+		"nombre":"Proyecto 4",
+		"img":"img/proyecto4.jpg",
+		"categ": "WEB",
+		"detalle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui vel purus dignissim iaculis.",
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui vel purus dignissim iaculis. Suspendisse malesuada, orci nec suscipit pharetra, odio nisi molestie sem, ac suscipit lorem risus eleifend lorem. Sed elementum, ipsum eget ullamcorper lacinia, libero magna congue felis, egestas dapibus enim nibh eu nisi. Integer ullamcorper molestie imperdiet. Vestibulum nec facilisis orci. Mauris et nibh in ex facilisis porttitor. Nullam ante dolor, condimentum id erat id, vestibulum rutrum sapien. Nam non vulputate arcu, sed mattis lacus. Praesent eget metus vel nibh tristique luctus. Duis at molestie lectus. Morbi lacus eros, finibus non nisl a, efficitur sollicitudin eros. Sed non fermentum enim."			
+	}
+	]
+}
