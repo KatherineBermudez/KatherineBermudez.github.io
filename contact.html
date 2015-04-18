@@ -46,10 +46,10 @@
         <h4 class="subtitle">Email</br>bermukat@gmail.com</h4>
       </section>
       <form name="form-contact" class="form-contact">
-        <input type="text" name="nombre" placeholder="Nombre" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <textarea rows="4" cols="50" placeholder="Mesaje" required></textarea>
-        <button>Enviar</button>
+        <input type="text" name="nombre" placeholder="Nombre" id="name">
+        <input type="email" name="email" placeholder="Email" id="email">
+        <textarea rows="4" cols="50" placeholder="Mesaje" id="message"></textarea>
+        <button id="enviar" onclick="appPortafolio.admi.validarForm();">Enviar</button>
       </form>
 
     </section>

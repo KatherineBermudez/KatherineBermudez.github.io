@@ -63,7 +63,7 @@ function animateprogress (id, val){
 		};	
 	};
 	
-	var fpAnimationFrame = getRequestAnimationFrame();   
+	var animationFrame = getRequestAnimationFrame();   
 	var i = 0;
 	var animacion = function () {
 			
@@ -72,8 +72,29 @@ function animateprogress (id, val){
 			// document.querySelector(id).setAttribute("value",i);
 			document.querySelector(id+"+ span").innerHTML = i+"%";
 			i++;
-			fpAnimationFrame(animacion);          
+			animationFrame(animacion);          
 		}								
 	}
-		fpAnimationFrame(animacion);   	
+		animationFrame(animacion);   	
 }
+var appPortafolio = {};
+
+appPortafolio.admi = function () {
+    return {
+        //validar el formulario
+        validarForm: function(){
+        console.log("hola1");
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+            if ( name  === '' ||  email === '' ||  message === '') {
+                alert("campo obligatorio");
+                console.log("hola2");
+                if ( typeof name !== "string" ) {
+	                alert("Contenido no válido");
+	                console.log("hola3");
+            	}
+            }
+        }
+    }
+}();
