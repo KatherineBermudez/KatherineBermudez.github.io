@@ -22,10 +22,6 @@ ul, ol {
   margin: 0;
 }
 
-li {
-  list-style: none;
-}
-
 p, li {
   @include font-size(16);
 }
@@ -33,15 +29,5 @@ p, li {
 a {
   text-decoration: none;
 }
-
-h1 {
-  @extend %title;
-}
-
-.subtitle{
-  @extend %subtitle;
-}
-
-
 
 // Patrones

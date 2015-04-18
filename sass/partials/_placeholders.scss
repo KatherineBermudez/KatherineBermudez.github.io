@@ -12,19 +12,3 @@
   max-width: $content-width;
   margin: 0 auto;
 }
-
-%title{
-  font-family: 'Raleway', 'Roboto', sans-serif;
-  @include font-size(32);
-  border-bottom: 1px solid #000;
-  display: inline-block;
-  padding: 0 10px 10px 0;
-  margin: 4% 0 4% 4%;
-}
-
-%subtitle{
-	font-family: 'Raleway', 'Roboto', sans-serif;
-  font-weight: 200; 
-  text-decoration: none;
-  @include font-size(21);
-}
