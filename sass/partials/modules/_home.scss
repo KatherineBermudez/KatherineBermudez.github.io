@@ -3,26 +3,21 @@
 //
 
 .home-container{
-  width:$content-width;
-  height: 100%;
+  width: 100%;
+  height: 1000px;
   float:right;
   background-size: cover;
+  background-image: url(../img/flower.jpg);
 
 }
 
 // Parrafo de bienvenida.
 .welcome{
-	margin: 30% 10% 0 0;
 	@include font-size(21);
-  font-family: 'Raleway', 'Roboto', sans-serif;
-	text-align: right;
-}
-
-.welcome h1{
-  border-bottom: 1px solid #000;
-  display: inline-block;
-  padding: 16px 0;
-  border-top: 1px solid #000;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    text-align: center;
+    margin: 32% 0;
+    color: #fff;
 }
 
 
