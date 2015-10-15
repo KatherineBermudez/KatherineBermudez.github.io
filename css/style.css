@@ -75,24 +75,23 @@ nav li {
   background-size: cover;
   background-image: url(../img/flower.jpg); }
 
+.header-main {
+  overflow: hidden; }
+
+.logo-main {
+  overflow: hidden;
+  position: absolute;
+  width: 20px;
+  margin: 2%; }
+
 .welcome {
   font-size: 21px;
   font-size: 2.1rem;
   font-family: 'Raleway', 'Roboto', sans-serif;
   text-align: center;
-  margin: 32% 0;
-  color: #fff; }
-
-.logo-main {
-  margin: 0;
-  position: absolute; }
-  .logo-main a {
-    color: #fff;
-    font-family: 'Raleway', 'Roboto', sans-serif;
-    font-weight: 200;
-    text-decoration: none;
-    font-size: 21px;
-    font-size: 2.1rem; }
+  color: #fff;
+  height: 80%;
+  padding: 26%; }
 
 .about-me {
   float: right;
