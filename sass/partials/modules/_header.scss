@@ -5,11 +5,17 @@
 //header-main
 .header-main {
   overflow: hidden;
+  background-size: cover;
+  background-image: url(../img/flowers.jpeg);
 }
 
-.logo-main{
-  overflow: hidden;
-  position: absolute;
+.home-container{
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.home-icon{
+  position: fixed;
   width: 20px;
   margin: 2%;
 }
@@ -20,8 +26,13 @@
     font-family: 'Raleway', 'Roboto', sans-serif;
     text-align: center;
     color: #fff;
-    height: 80%;
-    padding: 26%;
+    height: 90%;
+    padding: 21% 0 0 30%;
+    width: 100%;
+    h1 {
+      font-size: 6rem;
+      width: 54rem;
+    }
 }
 
 

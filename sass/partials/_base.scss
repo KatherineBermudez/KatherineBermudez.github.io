@@ -2,15 +2,14 @@
 // Estilos para los elementos base
 //
 
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  height: 100%;
-  font-family: sans-serif;
-}
-
 * {
   box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 62.5%;
 }
 
 body {
@@ -33,11 +32,5 @@ p, li {
 a {
   text-decoration: none;
 }
-
-.subtitle{
-  @extend %subtitle;
-}
-
-
 
 // Patrones

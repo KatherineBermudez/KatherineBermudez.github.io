@@ -28,11 +28,14 @@ nav {
   }
   .nav-main-item {
     display: block;
-    @include font-size(12);
+    @include font-size(18);
     outline: none;
     font-family: Roboto;
     font-weight: 200;
     text-transform: uppercase;
     color: #fff;
+    &:hover {
+      border-bottom: 1px solid;
+    }
   }
 }
