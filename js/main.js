@@ -10,12 +10,12 @@ $( document ).ready(function() {
 			  	//mi funcion
 			  	mostrarProyectos(data.proyectos);
 			  	console.log(data);
-						
+
 			  },
 			  error:function(jqXHR, textStatus, errorThrown) {
 				console.log("Text Status:" +textStatus+"\nError:"+errorThrown);
 			  }
-		});	
+		});
 	});
 
 	function mostrarProyectos(proyecto) {
@@ -38,44 +38,56 @@ $( document ).ready(function() {
 		$('#img-project').append(content);
 
 	}
-}); 
+});
 
-window.onload = function() { 
-  
+window.onload = function() {
+
   animateprogress("#html5",70);
   animateprogress("#css3",60);
   animateprogress("#js",50);
   animateprogress("#ilustrador",70);
-  
-}   
-	
-function animateprogress (id, val){		
+
+}
+
+function animateprogress (id, val){
 
 
-	var getRequestAnimationFrame = function () {  
+	var getRequestAnimationFrame = function () {
 		return window.requestAnimationFrame ||
-		window.webkitRequestAnimationFrame ||   
+		window.webkitRequestAnimationFrame ||
 		window.mozRequestAnimationFrame ||
 		window.oRequestAnimationFrame ||
 		window.msRequestAnimationFrame ||
 		function ( callback ){
 			window.setTimeout(enroute, 2 / 900 * 1000);
-		};	
+		};
 	};
+<<<<<<< HEAD
 	
 	var animationFrame = getRequestAnimationFrame();   
+=======
+
+	var animationFrame = getRequestAnimationFrame();
+>>>>>>> origin/master
 	var i = 0;
 	var animacion = function () {
-			
-	if (i<=val) 
+
+	if (i<=val)
 		{
 			// document.querySelector(id).setAttribute("value",i);
 			document.querySelector(id+"+ span").innerHTML = i+"%";
 			i++;
+<<<<<<< HEAD
 			animationFrame(animacion);          
 		}								
 	}
 		animationFrame(animacion);   	
+=======
+			animationFrame(animacion);
+		}
+	}
+		animationFrame(animacion);
+>>>>>>> origin/master
 }
 var appPortafolio = {};
 
@@ -97,4 +109,8 @@ appPortafolio.admi = function () {
             }
         }
     }
+<<<<<<< HEAD
 }();
+=======
+}();
+>>>>>>> origin/master
