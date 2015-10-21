@@ -30,8 +30,17 @@
     padding: 21% 0 0 30%;
     width: 100%;
     h1 {
-      font-size: 6rem;
-      width: 54rem;
+      font-size: 3rem;
+      position: absolute;
+      top: 20%;
+      left: 20%;
+      right: 20%;
+      border: 2px solid #fff;
+      padding: 3%;
+      background-color: rgba(0,0,0,.2);
+      @media (min-width: 680px){
+        font-size: 6rem;
+      }
     }
 }
 
